@@ -1,0 +1,55 @@
+version: '3.2'
+services:
+  web:
+    build: docker/web
+    ports:
+     - "8000:8000"
+    volumes:
+      - type: bind
+        source: .
+        target: /var/www/bobby
+      - type: bind
+        source: ./storage/app/public
+        target: /var/www/bobby/public/storage
+    secrets:
+      - host_ssh_key
+    extra_hosts:
+     - "tasso.today.local:127.0.0.1"
+  front:
+    build: docker/frontend
+    ports:
+      - "8080:8080"
+    volumes:
+      - type: bind
+        source: .
+        target: /var/www/bobby
+    extra_hosts:
+      - "tasso.today.local:127.0.0.1"
+    environment:
+      - SENTRY_AUTH_TOKEN=6620409604b6408084cc5f2772c8df501484e9daa2b3432bbb87cf449578f318
+      - SENTRY_URL=https://sentry.io
+      - SENTRY_ORG=tasso
+      - SENTRY_PROJECT=bobby_frontend
+  db:
+    image: mysql:8.0
+    ports:
+     - "33060:3306"
+    volumes:
+     - db_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: bobby
+      MYSQL_USER: bobby-user
+      MYSQL_PASSWORD: password
+    security_opt:
+      - seccomp:unconfined
+  mail:
+    image: mailhog/mailhog
+    ports:
+     - "1025:1025"
+     - "8025:8025"
+volumes:
+  db_data:
+secrets:
+  host_ssh_key:
+    file: ~/.ssh/id_rsa

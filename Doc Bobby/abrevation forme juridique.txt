@@ -1,0 +1,30 @@
+
+    EARL : Entreprise agricole à responsabilité limitée
+    EI : Entreprise individuelle
+    EIRL : Entreprise individuelle à responsabilité limitée (01.01.2010)
+    EURL : Entreprise unipersonnelle à responsabilité limitée
+    GAEC : Groupement agricole d'exploitation en commun
+    GEIE : Groupement européen d'intérêt économique
+    GIE : Groupement d'intérêt économique
+    SARL : Société à responsabilité limitée
+    SA : Société anonyme
+    SAS : Société par actions simplifiée
+    SASU : Société par actions simplifiée unipersonnelle
+    SC : Société civile
+    SCA : Société en commandite par actions
+    SCI : Société civile immobilière
+    SCIC : Société coopérative d'intérêt collectif
+    SCM : Société civile de moyens
+    SCOP : Société coopérative ouvrière de production
+    SCP : Société civile professionnelle
+    SCS : Société en commandite simple
+    SEL : Société d'exercice libéral
+    SELAFA : Société d'exercice libéral à forme anonyme
+    SELARL : Société d'exercice libéral à responsabilité limitée
+    SELAS : Société d'exercice libéral par actions simplifiée
+    SELCA : Société d'exercice libéral en commandite par actions
+    SEM : Société d'économie mixte
+    SEML : Société d'économie mixte locale
+    SEP : Société en participation
+    SICA : Société d'intérêt collectif agricole
+    SNC : Société en nom collectif
