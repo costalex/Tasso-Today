@@ -1,0 +1,35 @@
+/****** Colors uses *******/
+$primary-color: #1785fb;
+$secondary-color: #000;
+$black: #000;
+$blue: #1B5CFF;
+$white: #fff;
+$red: #f24440;
+$warning-color: #ff9633;
+$green: #1fb700;
+$pastel-green : #01dfa5;
+
+
+$light-blue: #f7fbff;
+$light-grey: #f9f9f9;
+$lighter-grey: #fdfdfd;
+$grey: #d8d8d8;
+$dark-grey: #9b9b9b;
+
+$lighter-shadow-box-color: rgba(0, 0, 0, .1);
+$light-shadow-box-color: rgba(0, 0, 0, .2);
+$shadow-box-color: rgba(0, 0, 0, .25);
+$dark-shadow-box-color: rgba(0, 0, 0, .5);
+
+/****** Default attributes *******/
+$btn-shadow-box: 0 2px 4px 0 $light-shadow-box-color;
+$btn-focus-shadow-box: 0 2px 4px $shadow-box-color;
+
+$lighter-shadow-box: 0 1px 1px $lighter-shadow-box-color;
+$light-shadow-box: 0 1px 2px $light-shadow-box-color;
+$dark-shadow-box: 0 1px 2px $dark-shadow-box-color;
+$shadow-box: 0 1px 2px $shadow-box-color;
+
+/****** Defaults text attributes ******/
+$default-size: 1.5;
+$default-font-family: 'Rubik', Verdana, Sans-serif;
