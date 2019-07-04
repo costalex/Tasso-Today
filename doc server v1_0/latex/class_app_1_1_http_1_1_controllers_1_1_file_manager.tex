@@ -1,0 +1,151 @@
+\hypertarget{class_app_1_1_http_1_1_controllers_1_1_file_manager}{}\section{File\+Manager Class Reference}
+\label{class_app_1_1_http_1_1_controllers_1_1_file_manager}\index{File\+Manager@{File\+Manager}}
+Inheritance diagram for File\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_app_1_1_http_1_1_controllers_1_1_file_manager}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_file_manager_abe6821967ac917d22565a423c0c64e4d}{upload\+Image\+File}} (\$file, \$file\+\_\+name, \$location, \$image\+\_\+sizes)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_file_manager_a57d9b01a568dfb298eb0bb9f7dbde601}{create\+Image\+Miniature\+From}} (\$file\+\_\+name, \$type, \$full\+\_\+path, \$image\+\_\+sizes)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_file_manager_a0c2a5d2726a4e293b9f8d7a4b3d77bbf}{parse\+Image\+Base64}} (\$file, \$file\+\_\+name, \$location)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_file_manager_a19af8b2cd6852d7d707ac948a1507190}{migration\+Produits\+Save}} (\$produit)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_file_manager_ad94bbbc7983eb9968d476f0bda016398}{migration\+Marques\+Save}} (\$marque)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_file_manager_a1fcf2dca5b3aea886390c0b8e98ed215}{template\+Produit}} (\$produit)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_file_manager_a3bfe12ca7cfd6540984b98cec3b7b058}{template\+Marques}} (\$marque\+\_\+nom)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_file_manager_a57d9b01a568dfb298eb0bb9f7dbde601}\label{class_app_1_1_http_1_1_controllers_1_1_file_manager_a57d9b01a568dfb298eb0bb9f7dbde601}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+File\+Manager@{App\+::\+Http\+::\+Controllers\+::\+File\+Manager}!create\+Image\+Miniature\+From@{create\+Image\+Miniature\+From}}
+\index{create\+Image\+Miniature\+From@{create\+Image\+Miniature\+From}!App\+::\+Http\+::\+Controllers\+::\+File\+Manager@{App\+::\+Http\+::\+Controllers\+::\+File\+Manager}}
+\subsubsection{\texorpdfstring{create\+Image\+Miniature\+From()}{createImageMiniatureFrom()}}
+{\footnotesize\ttfamily create\+Image\+Miniature\+From (\begin{DoxyParamCaption}\item[{}]{\$file\+\_\+name,  }\item[{}]{\$type,  }\item[{}]{\$full\+\_\+path,  }\item[{}]{\$image\+\_\+sizes }\end{DoxyParamCaption})}
+
+Creation des miniatures de l\textquotesingle{}image recus aux tailles specifiées 
+\begin{DoxyParams}{Parameters}
+{\em \$file\+\_\+name} & \\
+\hline
+{\em \$type} & \\
+\hline
+{\em \$full\+\_\+path} & \\
+\hline
+{\em \$image\+\_\+sizes} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_file_manager_ad94bbbc7983eb9968d476f0bda016398}\label{class_app_1_1_http_1_1_controllers_1_1_file_manager_ad94bbbc7983eb9968d476f0bda016398}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+File\+Manager@{App\+::\+Http\+::\+Controllers\+::\+File\+Manager}!migration\+Marques\+Save@{migration\+Marques\+Save}}
+\index{migration\+Marques\+Save@{migration\+Marques\+Save}!App\+::\+Http\+::\+Controllers\+::\+File\+Manager@{App\+::\+Http\+::\+Controllers\+::\+File\+Manager}}
+\subsubsection{\texorpdfstring{migration\+Marques\+Save()}{migrationMarquesSave()}}
+{\footnotesize\ttfamily migration\+Marques\+Save (\begin{DoxyParamCaption}\item[{}]{\$marque }\end{DoxyParamCaption})}
+
+Creation d\textquotesingle{}un fichier de sauvegarde des marques produits ajouter depuis l\textquotesingle{}espace admin 
+\begin{DoxyParams}{Parameters}
+{\em \$marque} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_file_manager_a19af8b2cd6852d7d707ac948a1507190}\label{class_app_1_1_http_1_1_controllers_1_1_file_manager_a19af8b2cd6852d7d707ac948a1507190}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+File\+Manager@{App\+::\+Http\+::\+Controllers\+::\+File\+Manager}!migration\+Produits\+Save@{migration\+Produits\+Save}}
+\index{migration\+Produits\+Save@{migration\+Produits\+Save}!App\+::\+Http\+::\+Controllers\+::\+File\+Manager@{App\+::\+Http\+::\+Controllers\+::\+File\+Manager}}
+\subsubsection{\texorpdfstring{migration\+Produits\+Save()}{migrationProduitsSave()}}
+{\footnotesize\ttfamily migration\+Produits\+Save (\begin{DoxyParamCaption}\item[{}]{\$produit }\end{DoxyParamCaption})}
+
+Creation d\textquotesingle{}un fichier de sauvegarde des produits ajouter depuis l\textquotesingle{}espace admin en requete afin de pouvoir les ajouter simplement a l\textquotesingle{}etape de migration 
+\begin{DoxyParams}{Parameters}
+{\em \$produit} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_file_manager_a0c2a5d2726a4e293b9f8d7a4b3d77bbf}\label{class_app_1_1_http_1_1_controllers_1_1_file_manager_a0c2a5d2726a4e293b9f8d7a4b3d77bbf}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+File\+Manager@{App\+::\+Http\+::\+Controllers\+::\+File\+Manager}!parse\+Image\+Base64@{parse\+Image\+Base64}}
+\index{parse\+Image\+Base64@{parse\+Image\+Base64}!App\+::\+Http\+::\+Controllers\+::\+File\+Manager@{App\+::\+Http\+::\+Controllers\+::\+File\+Manager}}
+\subsubsection{\texorpdfstring{parse\+Image\+Base64()}{parseImageBase64()}}
+{\footnotesize\ttfamily parse\+Image\+Base64 (\begin{DoxyParamCaption}\item[{}]{\$file,  }\item[{}]{\$file\+\_\+name,  }\item[{}]{\$location }\end{DoxyParamCaption})}
+
+Parsing du header de l\textquotesingle{}image et recuperation des informations 
+\begin{DoxyParams}{Parameters}
+{\em \$file} & \\
+\hline
+{\em \$file\+\_\+name} & \\
+\hline
+{\em \$location} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_file_manager_a3bfe12ca7cfd6540984b98cec3b7b058}\label{class_app_1_1_http_1_1_controllers_1_1_file_manager_a3bfe12ca7cfd6540984b98cec3b7b058}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+File\+Manager@{App\+::\+Http\+::\+Controllers\+::\+File\+Manager}!template\+Marques@{template\+Marques}}
+\index{template\+Marques@{template\+Marques}!App\+::\+Http\+::\+Controllers\+::\+File\+Manager@{App\+::\+Http\+::\+Controllers\+::\+File\+Manager}}
+\subsubsection{\texorpdfstring{template\+Marques()}{templateMarques()}}
+{\footnotesize\ttfamily template\+Marques (\begin{DoxyParamCaption}\item[{}]{\$marque\+\_\+nom }\end{DoxyParamCaption})}
+
+Creation d\textquotesingle{}un template de requete de creation d\textquotesingle{}un marque. 
+\begin{DoxyParams}{Parameters}
+{\em \$marque\+\_\+nom} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_file_manager_a1fcf2dca5b3aea886390c0b8e98ed215}\label{class_app_1_1_http_1_1_controllers_1_1_file_manager_a1fcf2dca5b3aea886390c0b8e98ed215}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+File\+Manager@{App\+::\+Http\+::\+Controllers\+::\+File\+Manager}!template\+Produit@{template\+Produit}}
+\index{template\+Produit@{template\+Produit}!App\+::\+Http\+::\+Controllers\+::\+File\+Manager@{App\+::\+Http\+::\+Controllers\+::\+File\+Manager}}
+\subsubsection{\texorpdfstring{template\+Produit()}{templateProduit()}}
+{\footnotesize\ttfamily template\+Produit (\begin{DoxyParamCaption}\item[{}]{\$produit }\end{DoxyParamCaption})}
+
+T\+E\+M\+P\+L\+A\+T\+ES Creation d"une fonction template permettant de sauvegarder la creation d\textquotesingle{}un produit depuis le site et permet de copier coller le texte dans la migration afin de le retrouver dans la DB par la suite 
+\begin{DoxyParams}{Parameters}
+{\em \$produit} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_file_manager_abe6821967ac917d22565a423c0c64e4d}\label{class_app_1_1_http_1_1_controllers_1_1_file_manager_abe6821967ac917d22565a423c0c64e4d}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+File\+Manager@{App\+::\+Http\+::\+Controllers\+::\+File\+Manager}!upload\+Image\+File@{upload\+Image\+File}}
+\index{upload\+Image\+File@{upload\+Image\+File}!App\+::\+Http\+::\+Controllers\+::\+File\+Manager@{App\+::\+Http\+::\+Controllers\+::\+File\+Manager}}
+\subsubsection{\texorpdfstring{upload\+Image\+File()}{uploadImageFile()}}
+{\footnotesize\ttfamily upload\+Image\+File (\begin{DoxyParamCaption}\item[{}]{\$file,  }\item[{}]{\$file\+\_\+name,  }\item[{}]{\$location,  }\item[{}]{\$image\+\_\+sizes }\end{DoxyParamCaption})}
+
+Fonction d\textquotesingle{}upload d\textquotesingle{}images 
+\begin{DoxyParams}[1]{Parameters}
+ & {\em \$file} & \\
+\hline
+ & {\em \$file\+\_\+name} & \\
+\hline
+ & {\em \$location} & \\
+\hline
+bool & {\em \$miniature} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+app/\+Http/\+Controllers/File\+Manager.\+php\end{DoxyCompactItemize}

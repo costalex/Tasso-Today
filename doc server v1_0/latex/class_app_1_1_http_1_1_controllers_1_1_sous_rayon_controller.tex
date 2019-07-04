@@ -1,0 +1,76 @@
+\hypertarget{class_app_1_1_http_1_1_controllers_1_1_sous_rayon_controller}{}\section{Sous\+Rayon\+Controller Class Reference}
+\label{class_app_1_1_http_1_1_controllers_1_1_sous_rayon_controller}\index{Sous\+Rayon\+Controller@{Sous\+Rayon\+Controller}}
+Inheritance diagram for Sous\+Rayon\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_app_1_1_http_1_1_controllers_1_1_sous_rayon_controller}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_sous_rayon_controller_a02068bc856d70df214af1259fe7d444e}{create\+Sous\+Rayon}} (Request \$request)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_sous_rayon_controller_a90bc5db53772269f9377937c3a013c4c}{delete\+Sous\+Rayon}} (Request \$request)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_sous_rayon_controller_a92e4ea10d05aaaf6c05345c4900254fd}{get\+Sous\+Rayon\+List}} (\$rayon\+\_\+id)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_sous_rayon_controller_a4d332bfc1099e205f953a2a6bc8ad71e}{update\+Sous\+Rayon\+Informations}} (Request \$request)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_sous_rayon_controller_a02068bc856d70df214af1259fe7d444e}\label{class_app_1_1_http_1_1_controllers_1_1_sous_rayon_controller_a02068bc856d70df214af1259fe7d444e}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+Sous\+Rayon\+Controller@{App\+::\+Http\+::\+Controllers\+::\+Sous\+Rayon\+Controller}!create\+Sous\+Rayon@{create\+Sous\+Rayon}}
+\index{create\+Sous\+Rayon@{create\+Sous\+Rayon}!App\+::\+Http\+::\+Controllers\+::\+Sous\+Rayon\+Controller@{App\+::\+Http\+::\+Controllers\+::\+Sous\+Rayon\+Controller}}
+\subsubsection{\texorpdfstring{create\+Sous\+Rayon()}{createSousRayon()}}
+{\footnotesize\ttfamily create\+Sous\+Rayon (\begin{DoxyParamCaption}\item[{Request}]{\$request }\end{DoxyParamCaption})}
+
+Creation d\textquotesingle{}un nouveau sous-\/rayon en fonction des limitations de l\textquotesingle{}abonnement de l\textquotesingle{}entreprise 
+\begin{DoxyParams}[1]{Parameters}
+Request & {\em \$request} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_sous_rayon_controller_a90bc5db53772269f9377937c3a013c4c}\label{class_app_1_1_http_1_1_controllers_1_1_sous_rayon_controller_a90bc5db53772269f9377937c3a013c4c}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+Sous\+Rayon\+Controller@{App\+::\+Http\+::\+Controllers\+::\+Sous\+Rayon\+Controller}!delete\+Sous\+Rayon@{delete\+Sous\+Rayon}}
+\index{delete\+Sous\+Rayon@{delete\+Sous\+Rayon}!App\+::\+Http\+::\+Controllers\+::\+Sous\+Rayon\+Controller@{App\+::\+Http\+::\+Controllers\+::\+Sous\+Rayon\+Controller}}
+\subsubsection{\texorpdfstring{delete\+Sous\+Rayon()}{deleteSousRayon()}}
+{\footnotesize\ttfamily delete\+Sous\+Rayon (\begin{DoxyParamCaption}\item[{Request}]{\$request }\end{DoxyParamCaption})}
+
+Suppression d\textquotesingle{}un sous-\/rayon en se basant sur son nom (envoye par le client)
+
+
+\begin{DoxyParams}{Parameters}
+{\em \$sous\+\_\+rayon\+\_\+nom} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_sous_rayon_controller_a92e4ea10d05aaaf6c05345c4900254fd}\label{class_app_1_1_http_1_1_controllers_1_1_sous_rayon_controller_a92e4ea10d05aaaf6c05345c4900254fd}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+Sous\+Rayon\+Controller@{App\+::\+Http\+::\+Controllers\+::\+Sous\+Rayon\+Controller}!get\+Sous\+Rayon\+List@{get\+Sous\+Rayon\+List}}
+\index{get\+Sous\+Rayon\+List@{get\+Sous\+Rayon\+List}!App\+::\+Http\+::\+Controllers\+::\+Sous\+Rayon\+Controller@{App\+::\+Http\+::\+Controllers\+::\+Sous\+Rayon\+Controller}}
+\subsubsection{\texorpdfstring{get\+Sous\+Rayon\+List()}{getSousRayonList()}}
+{\footnotesize\ttfamily get\+Sous\+Rayon\+List (\begin{DoxyParamCaption}\item[{}]{\$rayon\+\_\+id }\end{DoxyParamCaption})}
+
+Recuperation de la liste des sous-\/rayon en fonction de l\textquotesingle{}entreprise\+\_\+id et du rayon\+\_\+id a laquel il appartient 
+\begin{DoxyParams}{Parameters}
+{\em \$rayon\+\_\+id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_sous_rayon_controller_a4d332bfc1099e205f953a2a6bc8ad71e}\label{class_app_1_1_http_1_1_controllers_1_1_sous_rayon_controller_a4d332bfc1099e205f953a2a6bc8ad71e}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+Sous\+Rayon\+Controller@{App\+::\+Http\+::\+Controllers\+::\+Sous\+Rayon\+Controller}!update\+Sous\+Rayon\+Informations@{update\+Sous\+Rayon\+Informations}}
+\index{update\+Sous\+Rayon\+Informations@{update\+Sous\+Rayon\+Informations}!App\+::\+Http\+::\+Controllers\+::\+Sous\+Rayon\+Controller@{App\+::\+Http\+::\+Controllers\+::\+Sous\+Rayon\+Controller}}
+\subsubsection{\texorpdfstring{update\+Sous\+Rayon\+Informations()}{updateSousRayonInformations()}}
+{\footnotesize\ttfamily update\+Sous\+Rayon\+Informations (\begin{DoxyParamCaption}\item[{Request}]{\$request }\end{DoxyParamCaption})}
+
+Modifications des information(s) liées aux sous-\/rayons 
+\begin{DoxyParams}[1]{Parameters}
+Request & {\em \$request} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+app/\+Http/\+Controllers/Sous\+Rayon\+Controller.\+php\end{DoxyCompactItemize}

@@ -1,0 +1,119 @@
+\hypertarget{class_app_1_1_user}{}\section{User Class Reference}
+\label{class_app_1_1_user}\index{User@{User}}
+Inheritance diagram for User\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_app_1_1_user}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_app_1_1_user_a7d57b7b59a41f1e62a9162798054aee1}{user\+Type}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_user_aabf23b66cd362adaa508de5bfb22706a}{is\+Admin}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_user_ac72b53b5ba1db08b2dbc3146d05d5c07}{is\+Client}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_user_ad59f1d979560f3653c06b29d26a46cbd}{is\+Entreprise}} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries \$guarded}
+\item 
+{\bfseries \$fillable}
+\item 
+{\bfseries \$hidden}
+\item 
+\mbox{\Hypertarget{class_app_1_1_user_aab581066837d6296ba35c72937b6fc1c}\label{class_app_1_1_user_aab581066837d6296ba35c72937b6fc1c}} 
+{\bfseries \$dates} = \mbox{[}\textquotesingle{}deleted\+\_\+at\textquotesingle{}\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_app_1_1_user_aabf23b66cd362adaa508de5bfb22706a}\label{class_app_1_1_user_aabf23b66cd362adaa508de5bfb22706a}} 
+\index{App\+::\+User@{App\+::\+User}!is\+Admin@{is\+Admin}}
+\index{is\+Admin@{is\+Admin}!App\+::\+User@{App\+::\+User}}
+\subsubsection{\texorpdfstring{is\+Admin()}{isAdmin()}}
+{\footnotesize\ttfamily is\+Admin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Verification du role de l\textquotesingle{}utilisateur en tant qu\textquotesingle{}admin \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_user_ac72b53b5ba1db08b2dbc3146d05d5c07}\label{class_app_1_1_user_ac72b53b5ba1db08b2dbc3146d05d5c07}} 
+\index{App\+::\+User@{App\+::\+User}!is\+Client@{is\+Client}}
+\index{is\+Client@{is\+Client}!App\+::\+User@{App\+::\+User}}
+\subsubsection{\texorpdfstring{is\+Client()}{isClient()}}
+{\footnotesize\ttfamily is\+Client (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Verification du role de l\textquotesingle{}utilisateur en tant qu\textquotesingle{}un client \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_user_ad59f1d979560f3653c06b29d26a46cbd}\label{class_app_1_1_user_ad59f1d979560f3653c06b29d26a46cbd}} 
+\index{App\+::\+User@{App\+::\+User}!is\+Entreprise@{is\+Entreprise}}
+\index{is\+Entreprise@{is\+Entreprise}!App\+::\+User@{App\+::\+User}}
+\subsubsection{\texorpdfstring{is\+Entreprise()}{isEntreprise()}}
+{\footnotesize\ttfamily is\+Entreprise (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Verification du role de l\textquotesingle{}utilisateur en tant qu\textquotesingle{}un vendeur(entreprise, magasin) \begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_user_a7d57b7b59a41f1e62a9162798054aee1}\label{class_app_1_1_user_a7d57b7b59a41f1e62a9162798054aee1}} 
+\index{App\+::\+User@{App\+::\+User}!user\+Type@{user\+Type}}
+\index{user\+Type@{user\+Type}!App\+::\+User@{App\+::\+User}}
+\subsubsection{\texorpdfstring{user\+Type()}{userType()}}
+{\footnotesize\ttfamily user\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Recuperation du role de l\textquotesingle{}utilisateur dans ses informations de connection \begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+
+
+\subsection{Field Documentation}
+\mbox{\Hypertarget{class_app_1_1_user_a6a90e74ccdf5efd70d51d10c906f8e32}\label{class_app_1_1_user_a6a90e74ccdf5efd70d51d10c906f8e32}} 
+\index{App\+::\+User@{App\+::\+User}!\$fillable@{\$fillable}}
+\index{\$fillable@{\$fillable}!App\+::\+User@{App\+::\+User}}
+\subsubsection{\texorpdfstring{\$fillable}{$fillable}}
+{\footnotesize\ttfamily \$fillable\hspace{0.3cm}{\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= [
+        \textcolor{stringliteral}{'user\_type\_id'}, \textcolor{stringliteral}{'email'}, \textcolor{stringliteral}{'password'},
+        \textcolor{stringliteral}{'password\_caisse'}, \textcolor{stringliteral}{'status'}, \textcolor{stringliteral}{'refresh\_token'},
+        \textcolor{stringliteral}{'remember\_token'}, \textcolor{stringliteral}{'api\_token'}, \textcolor{stringliteral}{'confirm\_code'},
+        \textcolor{stringliteral}{'stripe\_id'}, \textcolor{stringliteral}{'card\_brand'}, \textcolor{stringliteral}{'card\_last\_four'},
+        \textcolor{stringliteral}{'trial\_ends\_at'}
+    ]
+\end{DoxyCode}
+\mbox{\Hypertarget{class_app_1_1_user_a5758640ec23bdc1a6850649763244e86}\label{class_app_1_1_user_a5758640ec23bdc1a6850649763244e86}} 
+\index{App\+::\+User@{App\+::\+User}!\$guarded@{\$guarded}}
+\index{\$guarded@{\$guarded}!App\+::\+User@{App\+::\+User}}
+\subsubsection{\texorpdfstring{\$guarded}{$guarded}}
+{\footnotesize\ttfamily \$guarded\hspace{0.3cm}{\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= [
+        \textcolor{stringliteral}{'id'}
+    ]
+\end{DoxyCode}
+\mbox{\Hypertarget{class_app_1_1_user_a4a374564d2858d8ae869a8fb890aad56}\label{class_app_1_1_user_a4a374564d2858d8ae869a8fb890aad56}} 
+\index{App\+::\+User@{App\+::\+User}!\$hidden@{\$hidden}}
+\index{\$hidden@{\$hidden}!App\+::\+User@{App\+::\+User}}
+\subsubsection{\texorpdfstring{\$hidden}{$hidden}}
+{\footnotesize\ttfamily \$hidden\hspace{0.3cm}{\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= [
+        \textcolor{stringliteral}{'password'}, \textcolor{stringliteral}{'confirm\_code'}, \textcolor{stringliteral}{'created\_at'},
+        \textcolor{stringliteral}{'updated\_at'}, \textcolor{stringliteral}{'deleted\_at'}
+    ]
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+app/User.\+php\end{DoxyCompactItemize}

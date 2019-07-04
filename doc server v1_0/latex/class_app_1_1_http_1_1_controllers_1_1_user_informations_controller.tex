@@ -1,0 +1,292 @@
+\hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller}{}\section{User\+Informations\+Controller Class Reference}
+\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller}\index{User\+Informations\+Controller@{User\+Informations\+Controller}}
+Inheritance diagram for User\+Informations\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a14e082d8e6a6a1e8dea28f9d0267fdf0}{create}} (Request \$request)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a0cd14581b8643d7ebc165e33c908ba01}{connect}} (Request \$request)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a5de8ef8db154f145e2624be4cb9dd941}{get\+Admin\+Token}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a5b2715b64f1825c3c1e3a92ee2b695fc}{logout}} (Request \$request)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a4d0667bc9789343654766a185e227160}{redirect\+To\+Provider}} (\$provider)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a0f8077b430eafc1d92b491ebf2aa3afa}{handle\+Provider\+Callback}} (\$provider)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a2a4a6927238d79d0ddd3078189e53e43}{social\+User\+Already\+Exist}} (\$mail\+\_\+check)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a7c8031af5e576afada6cf4b5304afff8}{parse\+User\+Api\+Infos}} (\$user, \$provider)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a0e00dbd60c714a125961bd48e41aa365}{get\+User\+Infos}} (\$user, \$provider)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a4cb22c3a4eb70b9af1297aaee86ddbf7}{get\+Groupes\+Name}} (\$groupes\+\_\+list)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_aa118461de946085fe42989193337044a}{destroy}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a38b277de903fd5b16def1c1071d34474}{add\+Groupe}} (\$client\+\_\+groups, \$code\+\_\+groupe)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_aa1af9f084604603a905875d6c57adb24}{verify\+Mail}} (\$mail\+\_\+user, \$user\+\_\+id)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a0f47fece0dea175a9f2b608adbadd0e7}{check\+Mail\+Code}} (\$mail\+\_\+code)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a9e24de441f06d7cdf6691145c0a057cc}{new\+Password}} (Request \$request)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a854e4cedc3542e3fdacc7cd8a07d6e86}{user\+Status\+Update}} (Request \$request)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a489a665ec013cb42ccbac3089027e557}{user\+Infos\+Update}} (Request \$request)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a0257a835800496e3ed274786e4b7c273}{refresh\+User\+Session}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_ab2f6042ae29a8aa04cc40179ef82fad7}{get\+User\+Instance}} (\$user\+\_\+id)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a38b277de903fd5b16def1c1071d34474}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a38b277de903fd5b16def1c1071d34474}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!add\+Groupe@{add\+Groupe}}
+\index{add\+Groupe@{add\+Groupe}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{add\+Groupe()}{addGroupe()}}
+{\footnotesize\ttfamily add\+Groupe (\begin{DoxyParamCaption}\item[{}]{\$client\+\_\+groups,  }\item[{}]{\$code\+\_\+groupe }\end{DoxyParamCaption})}
+
+C\+L\+I\+E\+N\+T/\+E\+N\+T\+R\+E\+P\+R\+I\+SE F\+O\+N\+C\+T\+I\+O\+NS C\+O\+M\+M\+I\+N\+ES Ajout d\textquotesingle{}un groupe (parsing json) \mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a0f47fece0dea175a9f2b608adbadd0e7}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a0f47fece0dea175a9f2b608adbadd0e7}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!check\+Mail\+Code@{check\+Mail\+Code}}
+\index{check\+Mail\+Code@{check\+Mail\+Code}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{check\+Mail\+Code()}{checkMailCode()}}
+{\footnotesize\ttfamily check\+Mail\+Code (\begin{DoxyParamCaption}\item[{}]{\$mail\+\_\+code }\end{DoxyParamCaption})}
+
+Verification du code renvoyé depuis la boite mail de l\textquotesingle{}utilisateur pour activation du compte 
+\begin{DoxyParams}{Parameters}
+{\em \$mail\+\_\+code} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a0cd14581b8643d7ebc165e33c908ba01}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a0cd14581b8643d7ebc165e33c908ba01}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!connect@{connect}}
+\index{connect@{connect}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{connect()}{connect()}}
+{\footnotesize\ttfamily connect (\begin{DoxyParamCaption}\item[{Request}]{\$request }\end{DoxyParamCaption})}
+
+Retourne les informations utilisateur une fois que l utilisateur s est authentifie et recus sont id
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a14e082d8e6a6a1e8dea28f9d0267fdf0}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a14e082d8e6a6a1e8dea28f9d0267fdf0}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!create@{create}}
+\index{create@{create}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{create()}{create()}}
+{\footnotesize\ttfamily create (\begin{DoxyParamCaption}\item[{Request}]{\$request }\end{DoxyParamCaption})}
+
+C\+O\+N\+N\+E\+C\+T\+I\+ON C\+L\+A\+S\+S\+I\+Q\+UE Creation d\textquotesingle{}un compte de maniere traditionnel
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_aa118461de946085fe42989193337044a}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_aa118461de946085fe42989193337044a}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!destroy@{destroy}}
+\index{destroy@{destroy}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{destroy()}{destroy()}}
+{\footnotesize\ttfamily destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+D\+E\+L\+E\+TE Softdelete d\textquotesingle{}un compte utilisateur
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a5de8ef8db154f145e2624be4cb9dd941}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a5de8ef8db154f145e2624be4cb9dd941}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!get\+Admin\+Token@{get\+Admin\+Token}}
+\index{get\+Admin\+Token@{get\+Admin\+Token}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{get\+Admin\+Token()}{getAdminToken()}}
+{\footnotesize\ttfamily get\+Admin\+Token (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Recuperation du token généré pour l\textquotesingle{}admin afin de le lui retourner lors de l\textquotesingle{}appele a user\+Infos \begin{DoxyReturn}{Returns}
+null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a4cb22c3a4eb70b9af1297aaee86ddbf7}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a4cb22c3a4eb70b9af1297aaee86ddbf7}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!get\+Groupes\+Name@{get\+Groupes\+Name}}
+\index{get\+Groupes\+Name@{get\+Groupes\+Name}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{get\+Groupes\+Name()}{getGroupesName()}}
+{\footnotesize\ttfamily get\+Groupes\+Name (\begin{DoxyParamCaption}\item[{}]{\$groupes\+\_\+list }\end{DoxyParamCaption})}
+
+Recuperation des noms de groupe dans le retour des informations utilisateurs \mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a0e00dbd60c714a125961bd48e41aa365}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a0e00dbd60c714a125961bd48e41aa365}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!get\+User\+Infos@{get\+User\+Infos}}
+\index{get\+User\+Infos@{get\+User\+Infos}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{get\+User\+Infos()}{getUserInfos()}}
+{\footnotesize\ttfamily get\+User\+Infos (\begin{DoxyParamCaption}\item[{}]{\$user,  }\item[{}]{\$provider }\end{DoxyParamCaption})}
+
+Parsing des informations contenues dans le retour des A\+PI externes afin d\textquotesingle{}uniformiser la recuperation de données 
+\begin{DoxyParams}{Parameters}
+{\em \$user} & \\
+\hline
+{\em \$provider} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_ab2f6042ae29a8aa04cc40179ef82fad7}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_ab2f6042ae29a8aa04cc40179ef82fad7}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!get\+User\+Instance@{get\+User\+Instance}}
+\index{get\+User\+Instance@{get\+User\+Instance}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{get\+User\+Instance()}{getUserInstance()}}
+{\footnotesize\ttfamily get\+User\+Instance (\begin{DoxyParamCaption}\item[{}]{\$user\+\_\+id }\end{DoxyParamCaption})}
+
+G\+E\+T\+T\+E\+RS W\+A\+R\+N\+I\+NG\+: A utiliser que pour des appels interne dans des cas tres specifique 
+\begin{DoxyParams}{Parameters}
+{\em \$user\+\_\+id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a0f8077b430eafc1d92b491ebf2aa3afa}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a0f8077b430eafc1d92b491ebf2aa3afa}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!handle\+Provider\+Callback@{handle\+Provider\+Callback}}
+\index{handle\+Provider\+Callback@{handle\+Provider\+Callback}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{handle\+Provider\+Callback()}{handleProviderCallback()}}
+{\footnotesize\ttfamily handle\+Provider\+Callback (\begin{DoxyParamCaption}\item[{}]{\$provider }\end{DoxyParamCaption})}
+
+Appelle du callback de l\textquotesingle{}api d\textquotesingle{}authentification exterieur 
+\begin{DoxyParams}{Parameters}
+{\em \$provider} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a5b2715b64f1825c3c1e3a92ee2b695fc}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a5b2715b64f1825c3c1e3a92ee2b695fc}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!logout@{logout}}
+\index{logout@{logout}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{logout()}{logout()}}
+{\footnotesize\ttfamily logout (\begin{DoxyParamCaption}\item[{Request}]{\$request }\end{DoxyParamCaption})}
+
+Deconnection 
+\begin{DoxyParams}[1]{Parameters}
+Request & {\em \$request} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a9e24de441f06d7cdf6691145c0a057cc}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a9e24de441f06d7cdf6691145c0a057cc}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!new\+Password@{new\+Password}}
+\index{new\+Password@{new\+Password}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{new\+Password()}{newPassword()}}
+{\footnotesize\ttfamily new\+Password (\begin{DoxyParamCaption}\item[{Request}]{\$request }\end{DoxyParamCaption})}
+
+Generation et envoie d\textquotesingle{}un nouveau mot de passe 
+\begin{DoxyParams}[1]{Parameters}
+Request & {\em \$request} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a7c8031af5e576afada6cf4b5304afff8}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a7c8031af5e576afada6cf4b5304afff8}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!parse\+User\+Api\+Infos@{parse\+User\+Api\+Infos}}
+\index{parse\+User\+Api\+Infos@{parse\+User\+Api\+Infos}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{parse\+User\+Api\+Infos()}{parseUserApiInfos()}}
+{\footnotesize\ttfamily parse\+User\+Api\+Infos (\begin{DoxyParamCaption}\item[{}]{\$user,  }\item[{}]{\$provider }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{class_app_1_1_demande}{Demande}} de traitement des informations de l\textquotesingle{}api externe et creation si besoin d\textquotesingle{}un compte utilisateur 
+\begin{DoxyParams}{Parameters}
+{\em \$user} & \\
+\hline
+{\em \$provider} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a4d0667bc9789343654766a185e227160}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a4d0667bc9789343654766a185e227160}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!redirect\+To\+Provider@{redirect\+To\+Provider}}
+\index{redirect\+To\+Provider@{redirect\+To\+Provider}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{redirect\+To\+Provider()}{redirectToProvider()}}
+{\footnotesize\ttfamily redirect\+To\+Provider (\begin{DoxyParamCaption}\item[{}]{\$provider }\end{DoxyParamCaption})}
+
+C\+O\+N\+N\+E\+C\+T\+I\+ON A\+PI E\+X\+T\+E\+R\+NE 
+\begin{DoxyParams}{Parameters}
+{\em \$provider} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a0257a835800496e3ed274786e4b7c273}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a0257a835800496e3ed274786e4b7c273}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!refresh\+User\+Session@{refresh\+User\+Session}}
+\index{refresh\+User\+Session@{refresh\+User\+Session}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{refresh\+User\+Session()}{refreshUserSession()}}
+{\footnotesize\ttfamily refresh\+User\+Session (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+S\+E\+S\+S\+I\+ON U\+S\+ER Rafraichissement de la session par le token d\textquotesingle{}authorisation 
+\begin{DoxyParams}{Parameters}
+{\em \$token} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a2a4a6927238d79d0ddd3078189e53e43}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a2a4a6927238d79d0ddd3078189e53e43}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!social\+User\+Already\+Exist@{social\+User\+Already\+Exist}}
+\index{social\+User\+Already\+Exist@{social\+User\+Already\+Exist}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{social\+User\+Already\+Exist()}{socialUserAlreadyExist()}}
+{\footnotesize\ttfamily social\+User\+Already\+Exist (\begin{DoxyParamCaption}\item[{}]{\$mail\+\_\+check }\end{DoxyParamCaption})}
+
+Verification de l\textquotesingle{}existance du compte utilisateur dans la DB 
+\begin{DoxyParams}{Parameters}
+{\em \$mail\+\_\+check} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a489a665ec013cb42ccbac3089027e557}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a489a665ec013cb42ccbac3089027e557}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!user\+Infos\+Update@{user\+Infos\+Update}}
+\index{user\+Infos\+Update@{user\+Infos\+Update}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{user\+Infos\+Update()}{userInfosUpdate()}}
+{\footnotesize\ttfamily user\+Infos\+Update (\begin{DoxyParamCaption}\item[{Request}]{\$request }\end{DoxyParamCaption})}
+
+Mise a jour du compte U\+S\+ER par son proprietaire 
+\begin{DoxyParams}[1]{Parameters}
+Request & {\em \$request} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a854e4cedc3542e3fdacc7cd8a07d6e86}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_a854e4cedc3542e3fdacc7cd8a07d6e86}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!user\+Status\+Update@{user\+Status\+Update}}
+\index{user\+Status\+Update@{user\+Status\+Update}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{user\+Status\+Update()}{userStatusUpdate()}}
+{\footnotesize\ttfamily user\+Status\+Update (\begin{DoxyParamCaption}\item[{Request}]{\$request }\end{DoxyParamCaption})}
+
+Update informations de connection par un A\+D\+M\+IN \mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_aa1af9f084604603a905875d6c57adb24}\label{class_app_1_1_http_1_1_controllers_1_1_user_informations_controller_aa1af9f084604603a905875d6c57adb24}} 
+\index{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}!verify\+Mail@{verify\+Mail}}
+\index{verify\+Mail@{verify\+Mail}!App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller@{App\+::\+Http\+::\+Controllers\+::\+User\+Informations\+Controller}}
+\subsubsection{\texorpdfstring{verify\+Mail()}{verifyMail()}}
+{\footnotesize\ttfamily verify\+Mail (\begin{DoxyParamCaption}\item[{}]{\$mail\+\_\+user,  }\item[{}]{\$user\+\_\+id }\end{DoxyParamCaption})}
+
+M\+A\+I\+LS Envoie d\textquotesingle{}un code de confirmation de mail généré par le serveur 
+\begin{DoxyParams}{Parameters}
+{\em \$mail\+\_\+user} & \\
+\hline
+{\em \$user\+\_\+id} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+app/\+Http/\+Controllers/User\+Informations\+Controller.\+php\end{DoxyCompactItemize}
