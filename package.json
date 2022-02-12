@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@sentry/cli": "^1.36.4",
-    "ajv": "^6.5.3",
+    "ajv": "^6.12.3",
     "ajv-keywords": "^3.2.0",
     "js-cookie": "^2.2.0",
     "raven-js": "^3.27.0",
